@@ -1,0 +1,16 @@
+---
+layout: default
+permalink: /demos/
+---
+
+<main class="demos">
+  <select onchange="loadDemo(this.value)">
+  {% for theme in site.posts %}
+    {% if theme.demo %}
+      <option>{{ theme.title }}</option>
+    {% endif %}
+  {% endfor %}
+  </select>
+  <article id="demo">
+  </article>
+</main>

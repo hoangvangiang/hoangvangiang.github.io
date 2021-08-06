@@ -1,0 +1,27 @@
+name: Jekyll Themes
+description: A directory of the best-looking themes for Jekyll blogs
+url: 'http://themes.jekyllrc.org'
+baseurl: ''
+github: 'https://github.com/jekyllrc/jekyllthemes'
+permalink: /:title/
+markdown: kramdown
+cdn: ''
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+sass:
+  sass_dir: /assets/_sass
+  style: :compressed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+  - CNAME
+defaults:
+  -
+    scope:
+      path: ''
+      type: posts
+    values:
+      layout: post

@@ -1,0 +1,12 @@
+---
+title: Zetsu
+homepage: https://github.com/nandomoreirame/zetsu
+download: https://github.com/nandomoreirame/zetsu/archive/master.zip
+demo: http://nandomoreira.me/zetsu/
+author: nandomoreira.me
+thumbnail: zetsu.jpg
+license: MIT License
+license_link: https://github.com/nandomoreirame/zetsu/blob/master/LICENSE
+github_repo: nandomoreirame/zetsu
+stars: 43
+---
