@@ -1,11 +1,13 @@
-name: Jekyll Themes
+#Name of Website
+
+name: My Website - Jekyll Themes
 description: A directory of the best-looking themes for Jekyll blogs
-url: 'http://themes.jekyllrc.org'
+url: 'http://hoanggiang.gq'
 baseurl: ''
-github: 'https://github.com/jekyllrc/jekyllthemes'
+github: 'https://github.com/hoangvangiang/hoangvangiang.github.io'
 permalink: /:title/
 markdown: kramdown
-cdn: ''
+cdn: 'https://cdn.rawgit.com/hoangvangiang/hoangvangiang.github.io/master'
 plugins:
   - jekyll-sitemap
   - jekyll-feed
@@ -25,3 +27,5 @@ defaults:
       type: posts
     values:
       layout: post
+kramdown:
+  input: GFM
